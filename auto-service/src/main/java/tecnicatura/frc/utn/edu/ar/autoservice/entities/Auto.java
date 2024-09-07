@@ -1,4 +1,4 @@
-package tecnicatura.frc.utn.edu.ar.usuario_service.entities;
+package tecnicatura.frc.utn.edu.ar.autoservice.entities;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -12,10 +12,12 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class Usuario {
+public class Auto {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    private String nombre;
-    private String email;
+
+    private String marca;
+    private String modelo;
+    private Long usuario_id;
 }
