@@ -16,6 +16,6 @@ public class Moto {
 
     private String marca;
     private String modelo;
-    private Long usuario_id;
+    private Long usuarioId;
 }
 

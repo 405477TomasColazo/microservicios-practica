@@ -23,6 +23,6 @@ public class MotoService {
         return motoRepository.save(moto);
     }
     public List<Moto> byUsuarioId(Long id){
-        return motoRepository.findByUsuario_id(id);
+        return motoRepository.findByUsuarioId(id);
     }
 }

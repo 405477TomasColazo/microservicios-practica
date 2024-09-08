@@ -23,6 +23,6 @@ public class AutoService {
         return autoRepository.save(auto);
     }
     public List<Auto> byUsuarioId(Long id){
-        return autoRepository.findByUsuario_id(id);
+        return autoRepository.findByUsuarioId(id);
     }
 }

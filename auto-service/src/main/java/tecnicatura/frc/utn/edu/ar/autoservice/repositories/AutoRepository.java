@@ -7,5 +7,5 @@ import tecnicatura.frc.utn.edu.ar.autoservice.entities.Auto;
 import java.util.List;
 @Repository
 public interface AutoRepository extends JpaRepository<Auto, Long> {
-    List<Auto> findByUsuario_id(Long id);
+    List<Auto> findByUsuarioId(Long id);
 }

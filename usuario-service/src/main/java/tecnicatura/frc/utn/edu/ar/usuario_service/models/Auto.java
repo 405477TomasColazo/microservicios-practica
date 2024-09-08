@@ -10,4 +10,5 @@ import lombok.NoArgsConstructor;
 public class Auto {
     private String marca;
     private String modelo;
+    private Long usuarioId;
 }
