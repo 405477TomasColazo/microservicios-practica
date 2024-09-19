@@ -50,7 +50,7 @@ Gestión de la emisión de boletas. Los endpoints permiten la creación, consult
 Cobros Microservice
 Gestión de los cobros de boletas. Los endpoints permiten la consulta de estados de cobro y la confirmación de pagos.
 
-## Diagrama de base de datos
+# Diagrama de la Base de Datos
 
 ```mermaid
 erDiagram
@@ -135,20 +135,6 @@ erDiagram
         date last_updated_date
         string last_updated_user
     }
-
-## Tecnologias
-- Java 17
-- Spring Boot
-  - Spring Web
-  - Spring Data JPA
-  - Eureka Discovery Client
-- Maven
-
-<div>
-  <h1 align="center">
-     ✦ Boletas y Cobros - Front-End ✦
-  </h1>
-</div>
 ```
 ## ✍Descripción
 
