@@ -149,7 +149,7 @@ erDiagram
      ✦ Boletas y Cobros - Front-End ✦
   </h1>
 </div>
-
+```
 ## ✍Descripción
 
 El front-end proporciona una interfaz amigable que interactúa con los microservicios de boletas y cobros. Los usuarios pueden visualizar boletas, gestionar pagos y visualizar el estado de las transacciones.
